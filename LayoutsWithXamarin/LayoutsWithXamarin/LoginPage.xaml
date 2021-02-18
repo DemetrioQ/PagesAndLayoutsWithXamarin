@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LayoutsWithXamarin.LoginPage">
+
+    <StackLayout BackgroundColor="White">
+        <Grid RowDefinitions="Auto,Auto,Auto,Auto,Auto" ColumnDefinitions="*,*,*" Padding="10" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+            <Image Source="IntecIcono" Grid.Row="0" Grid.ColumnSpan="3" HeightRequest="150"></Image>
+            <Entry x:Name ="email" Placeholder="Email" Grid.Row="1" HorizontalOptions="FillAndExpand" Grid.ColumnSpan="3"></Entry>
+            <Entry x:Name="password" Placeholder="Password" Grid.Row="2" IsPassword="True" HorizontalOptions="FillAndExpand" Grid.ColumnSpan="3"></Entry>
+
+            <Button Text="Login" TextColor="White" Grid.Row="3"  BackgroundColor="Red" HorizontalOptions="FillAndExpand" Grid.ColumnSpan="3" Clicked="LoginButton_Clicked"></Button>
+            <Button Text="Register" TextColor="Red" BackgroundColor="White" Clicked="RegisterButton_Clicked" Grid.Row="4" Grid.Column="1"></Button>
+
+
+        </Grid>
+    </StackLayout>
+
+</ContentPage>

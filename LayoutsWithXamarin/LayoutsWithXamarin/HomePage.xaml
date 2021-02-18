@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LayoutsWithXamarin.HomePage">
+    <ContentPage.Content>
+        <StackLayout Margin="15" BackgroundColor="White">
+            <Label Text="FEATURED COURSE" FontAttributes="Bold" FontSize="Body"></Label>
+            <Label Text="Stress will always be around. The trick is finding a few stress-busters you can enjoy!" FontSize="Body"></Label>
+            <Image Source="YogaPose" HeightRequest="175"></Image>
+            <Label Text="Foundations" FontSize="34" HorizontalOptions="Center" FontAttributes="Bold" TextColor="black"></Label>
+            <Label Text="This guided meditation for beginners course will introduce you to mindfulness" HorizontalTextAlignment="Center" FontSize="Body"></Label>
+            <Label Text="10 min" HorizontalOptions="Center" Margin="2"></Label>
+            <Label Text="ON THE GO" FontAttributes="Bold"></Label>
+            <Grid RowDefinitions="50,50,50" ColumnDefinitions="*,*">
+                <Label Text="After work" Grid.Row="0" Grid.Column="0" BackgroundColor="LightGreen" TextColor="Black" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="18"></Label>
+                <Label Text="Tough day" Grid.Row="0" Grid.Column="1" BackgroundColor="DeepSkyBlue" TextColor="White" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="18"></Label>
+                <Label Text="Good morning" Grid.Row="1" Grid.Column="0" BackgroundColor="Orange" TextColor="White" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="18"></Label>
+                <Label Text="Sleep" Grid.Row="1" Grid.Column="1" BackgroundColor="LightGray" TextColor="Black" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="18"></Label>
+                <Label Text="Quick break" Grid.Row="2" Grid.Column="0" BackgroundColor="LightSkyBlue" TextColor="Black" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="18"></Label>
+                <Label Text="Big event" Grid.Row="2" Grid.Column="1" BackgroundColor="Salmon" TextColor="White" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="18"></Label>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
