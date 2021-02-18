@@ -41,15 +41,9 @@ namespace LayoutsWithXamarin
 
         private async void RegisterButton_Clicked(object sender, EventArgs e)
         {
-            if (canClick)
-            {
-                canClick = false;
-                await Navigation.PushAsync(new LayoutsWithXamarin.RegisterPage());
-                canClick = true;
 
-            }
+           await Navigation.PushAsync(new LayoutsWithXamarin.RegisterPage());
            
-
 
         }
     }

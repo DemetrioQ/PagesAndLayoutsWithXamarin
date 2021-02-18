@@ -3,18 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="LayoutsWithXamarin.RegisterPage">
     <ContentPage.Content>
-        <StackLayout BackgroundColor="White">
-            <Grid RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto" ColumnDefinitions="*,*,*" Padding="10" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
-                <Image Source="IntecIcono" Grid.Row="0" Grid.ColumnSpan="3" HeightRequest="150"></Image>
-                <Entry x:Name ="name" Placeholder="Nombre" Grid.Row="1" HorizontalOptions="FillAndExpand" Grid.ColumnSpan="3"></Entry>
-                <Entry x:Name ="email" Placeholder="Email" Grid.Row="2" HorizontalOptions="FillAndExpand" Grid.ColumnSpan="3"></Entry>
-                <Entry x:Name="password" Placeholder="Password" Grid.Row="3" IsPassword="True" HorizontalOptions="FillAndExpand" Grid.ColumnSpan="3"></Entry>
-                <Entry x:Name="confirmPassword" Placeholder="Confirm Password" Grid.Row="4" IsPassword="True" HorizontalOptions="FillAndExpand" Grid.ColumnSpan="3"></Entry>
-                
-                <Button Text="Register" TextColor="White" Grid.Row="5"  BackgroundColor="Red" HorizontalOptions="FillAndExpand" Grid.ColumnSpan="3" Clicked="RegisterButton_Clicked"></Button>
-
-
-            </Grid>
+        <StackLayout BackgroundColor="White" VerticalOptions="Center" Margin="10">
+            <Image Source="IntecIcono" HeightRequest="150"></Image>
+            <Entry x:Name ="name" Placeholder="Nombre"  HorizontalOptions="FillAndExpand" ></Entry>
+            <Entry x:Name ="email" Placeholder="Email" HorizontalOptions="FillAndExpand" ></Entry>
+            <Entry x:Name="password" Placeholder="Password"  IsPassword="True" HorizontalOptions="FillAndExpand"></Entry>
+            <Entry x:Name="confirmPassword" Placeholder="Confirm Password" IsPassword="True" HorizontalOptions="FillAndExpand" ></Entry>
+            <Button Text="Register" TextColor="White"  BackgroundColor="Red" HorizontalOptions="FillAndExpand"  Clicked="RegisterButton_Clicked"></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
