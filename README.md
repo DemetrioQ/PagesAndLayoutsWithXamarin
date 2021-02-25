@@ -10,6 +10,6 @@
 
 # Home Page
 
-![HomePage](https://user-images.githubusercontent.com/52639107/109100131-b5dd1a80-76fa-11eb-9b1d-057c0daadd72.PNG)
+![HomePage](https://user-images.githubusercontent.com/52639107/108423202-f37b0880-720d-11eb-9362-3049690d01b4.PNG)
 
 
